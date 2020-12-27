@@ -1,0 +1,116 @@
+[debug] [2020-12-27T09:49:53.214Z] ----------------------------------------------------------------------
+[debug] [2020-12-27T09:49:53.222Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-27T09:49:53.223Z] CLI Version:   9.1.0
+[debug] [2020-12-27T09:49:53.224Z] Platform:      win32
+[debug] [2020-12-27T09:49:53.224Z] Node Version:  v12.14.1
+[debug] [2020-12-27T09:49:53.228Z] Time:          Sun Dec 27 2020 12:49:53 GMT+0300 (GMT+03:00)
+[debug] [2020-12-27T09:49:53.229Z] ----------------------------------------------------------------------
+[debug] [2020-12-27T09:49:53.230Z] 
+[debug] [2020-12-27T09:49:53.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-27T09:49:53.258Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Irem Simsar\Desktop\bitirmeprojesi
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-12-27T09:51:14.068Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"linkrefinfo","name":"linkrefinfo"}
+[debug] [2020-12-27T09:51:15.554Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 27 Dec 2020 09:51:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1013","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-27T09:51:15.574Z] > refreshing access token with scopes: []
+[debug] [2020-12-27T09:51:15.575Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-27T09:51:15.902Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sun, 27 Dec 2020 09:51:14 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-27T09:51:15.934Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6315097264665453031 [none]
+[debug] [2020-12-27T09:51:17.319Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6315097264665453031 200
+[debug] [2020-12-27T09:51:17.319Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6315097264665453031 {"name":"operations/cp.6315097264665453031","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2020-12-27T09:51:17.822Z] [Project Creation Poller] Retrying task index 0
+[debug] [2020-12-27T09:51:17.824Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6315097264665453031 [none]
+[debug] [2020-12-27T09:51:19.086Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6315097264665453031 200
+[debug] [2020-12-27T09:51:19.086Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6315097264665453031 {"name":"operations/cp.6315097264665453031","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"959623389300","projectId":"linkrefinfo","lifecycleState":"ACTIVE","name":"linkrefinfo","createTime":"2020-12-27T09:51:13.712Z"}}
+[debug] [2020-12-27T09:51:19.115Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-27T09:51:19.116Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-27T09:51:19.439Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 27 Dec 2020 09:51:17 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-27T09:51:19.484Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/linkrefinfo:addFirebase  
+ 
+[debug] [2020-12-27T09:51:20.570Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Sun, 27 Dec 2020 09:51:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-27T09:51:20.570Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-12-27T09:51:20.574Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-12-27T09:51:20.997Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at Request.<anonymous> (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:223:5)
+    at Request.EventEmitter.emit (domain.js:475:20)
+    at IncomingMessage.<anonymous> (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:312:28)
+    at IncomingMessage.emit (events.js:228:7)
+    at IncomingMessage.EventEmitter.emit (domain.js:475:20)
+    at endReadableNT (_stream_readable.js:1185:12)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2020-12-27T10:28:06.761Z] ----------------------------------------------------------------------
+[debug] [2020-12-27T10:28:06.766Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-27T10:28:06.767Z] CLI Version:   9.1.0
+[debug] [2020-12-27T10:28:06.767Z] Platform:      win32
+[debug] [2020-12-27T10:28:06.767Z] Node Version:  v12.14.1
+[debug] [2020-12-27T10:28:06.787Z] Time:          Sun Dec 27 2020 13:28:06 GMT+0300 (GMT+03:00)
+[debug] [2020-12-27T10:28:06.787Z] ----------------------------------------------------------------------
+[debug] [2020-12-27T10:28:06.787Z] 
+[debug] [2020-12-27T10:28:06.808Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-27T10:28:06.809Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Irem Simsar\Desktop\bitirmeprojesi
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-12-27T10:30:48.557Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2020-12-27T10:30:49.075Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2020-12-27T10:30:49.076Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.1","browserURL":"https://www.gstatic.com/firebasejs/8.2.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.1/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.1/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.1/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.1/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.1/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.memory.js"}}
+[debug] [2020-12-27T10:30:49.427Z] Error: ENOENT: no such file or directory, open 'C:\Users\Irem Simsar\Desktop\bitirmeprojesi\BitirmeProjesi.html\index.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.writeFileSync (fs.js:1265:35)
+    at Object.createFileSync (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:155:8)
+    at C:\Users\Irem Simsar\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:174:18
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+[error] 
+[error] Error: An unexpected error has occurred.
